@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "updated": "2026-11-18",
+  "publisher": {
+    "name": "Tütüncüler Mods",
+    "github": "https://github.com/tutunculermods"
+  },
+  "launcher": {
+    "repo": "tutunculermods/tutunculer-launcher",
+    "asset": "TutunculerLauncher-Setup-v*.exe"
+  },
+  "mods": [
+    {
+      "id": "tutunculer-weather",
+      "name": "Tütüncüler Weather",
+      "game": "Live for Speed",
+      "featured": true,
+      "repo": "tutunculermods/tutunculer-weather",
+      "asset": "TutunculerWeather-v*.zip",
+      "exe": "TutunculerWeather.exe",
+      "shortcut": "Tütüncüler Weather",
+      "icon": "icons/tutunculer-weather.svg",
+      "accent": [
+        "#46dfff",
+        "#7b6cff"
+      ],
+      "tags": [
+        "weather",
+        "graphics",
+        "sound"
+      ],
+      "tagline": {
+        "tr": "Live for Speed için gerçek zamanlı hava sistemi",
+        "en": "Real-time weather for Live for Speed",
+        "pt": "Sistema de clima em tempo real para o Live for Speed",
+        "es": "Sistema de clima en tiempo real para Live for Speed"
+      },
+      "description": {
+        "tr": "Live for Speed'e yağmur, kar, sis, hacimsel bulutlar, ıslak ve karla kaplı zemin ve hava sesleri ekler. Hava, oyundan çıkmadan anında değişir ve LFS'teki günün saatine kendiliğinden uyar.\n\n- 14 hazır hava: açıktan tipiye\n- Gökte dallı yıldırım, ıslak asfaltta yansımalar, gece yıldızları\n- İki kar modu: temiz zemin veya karla kaplı harita\n- Aynalarda da hava efekti; araç gövdeleri korunur\n- Yağmur, gök gürültüsü ve tipi sesleri (araç içinde boğuk)\n- Otomatik hava döngüsü ve oyun açıkken mini panel\n\nMod yalnızca görüntü ve ses ekler; araç fiziğine dokunmaz ve diğer oyuncuları etkilemez.",
+        "en": "Adds rain, snow, fog, volumetric clouds, wet and snow-covered ground and weather sounds to Live for Speed. The weather changes instantly without leaving the game and automatically matches the time of day set in LFS.\n\n- 14 presets, from clear skies to blizzard\n- Branching lightning, reflections on wet asphalt, night stars\n- Two snow modes: clean ground or a fully snow-covered map\n- Weather in the mirrors too; car bodies are protected\n- Rain, thunder and blizzard sounds (muffled inside the car)\n- Automatic weather cycle and a mini panel while you play\n\nThe mod only adds visuals and sound; it does not touch car physics and does not affect other players.",
+        "pt": "Adiciona chuva, neve, neblina, nuvens volumétricas, pista molhada e coberta de neve e sons do clima ao Live for Speed. O clima muda na hora, sem sair do jogo, e acompanha sozinho a hora do dia definida no LFS.\n\n- 14 climas prontos, do céu limpo à nevasca\n- Raios ramificados, reflexos no asfalto molhado, estrelas à noite\n- Dois modos de neve: pista limpa ou mapa todo coberto de neve\n- Clima também nos retrovisores; a carroceria dos carros é preservada\n- Sons de chuva, trovão e nevasca (abafados dentro do carro)\n- Ciclo automático de clima e mini painel durante o jogo\n\nO mod só adiciona imagem e som; não mexe na física dos carros e não afeta outros jogadores.",
+        "es": "Añade a Live for Speed lluvia, nieve, niebla, nubes volumétricas, suelo mojado y nevado y sonidos del clima. El clima cambia al instante sin salir del juego y se adapta solo a la hora del día elegida en LFS.\n\n- 14 climas predefinidos, del cielo despejado a la ventisca\n- Rayos ramificados, reflejos en el asfalto mojado, estrellas de noche\n- Dos modos de nieve: suelo limpio o mapa cubierto de nieve\n- Clima también en los espejos; las carrocerías se protegen\n- Sonidos de lluvia, truenos y ventisca (amortiguados dentro del coche)\n- Ciclo automático de clima y mini panel mientras juegas\n\nEl mod solo añade imagen y sonido; no toca la física de los coches ni afecta a otros jugadores."
+      },
+      "requirements": {
+        "tr": "Windows 10/11 64 bit · Live for Speed 0.8+ · LFS kurulum sırasında kapalı olmalı",
+        "en": "Windows 10/11 64-bit · Live for Speed 0.8+ · LFS must be closed while installing",
+        "pt": "Windows 10/11 64 bits · Live for Speed 0.8+ · o LFS deve estar fechado durante a instalação",
+        "es": "Windows 10/11 64 bits · Live for Speed 0.8+ · LFS debe estar cerrado durante la instalación"
+      },
+      "uninstallNote": {
+        "tr": "LFS klasörüne kurulan efekt dosyalarını da kaldırmak için önce uygulamayı açıp Ayarlar → \"Tamamen kaldır\"ı kullanın.",
+        "en": "To also remove the effect files installed into your LFS folder, first open the app and use Settings → \"Uninstall completely\".",
+        "pt": "Para remover também os arquivos de efeito instalados na pasta do LFS, abra o aplicativo e use Configurações → \"Desinstalar tudo\".",
+        "es": "Para quitar también los archivos de efectos instalados en la carpeta de LFS, abre la aplicación y usa Ajustes → \"Desinstalar por completo\"."
+      },
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tutunculermods/tutunculer-weather"
+        }
+      ]
+    },
+    {
+      "id": "tg-lights",
+      "name": "TG Lights",
+      "game": "Live for Speed",
+      "repo": "tutunculermods/tglights",
+      "asset": "TG-LIGHTS-*.zip",
+      "install": "installer",
+      "setup": "TG-LIGHTS-Setup.exe",
+      "uninstallKey": "TutunculerGaraj.TGLights",
+      "exe": "TG-LIGHTS.exe",
+      "shortcut": "TG LIGHTS",
+      "icon": "icons/tg-lights.svg",
+      "accent": [
+        "#ff4d6d",
+        "#4d7cff"
+      ],
+      "tags": [
+        "police",
+        "siren",
+        "lights"
+      ],
+      "tagline": {
+        "tr": "Polis, ambulans ve itfaiye için çakar ve siren kontrolü",
+        "en": "Flasher and siren control for police, ambulance and fire",
+        "pt": "Controle de giroflex e sirene para polícia, ambulância e bombeiros",
+        "es": "Control de luces y sirena para policía, ambulancia y bomberos"
+      },
+      "description": {
+        "tr": "LFS'te polis, ambulans ve itfaiye araçları için çakar ve siren kontrolü. Yerel LFS oturumuna InSim ile kendiliğinden bağlanır.\n\n- **Page Down** çakarları açar/kapatır, **Page Up** sireni değiştirir, **End** ikisini birden kapatır\n- Sekiz çakar deseni, %60–160 hız ayarı ve önizleme\n- Araç, konfigürasyon ve profil başına çakar kanalı seçimi\n- Tuşlar istediğiniz gibi değiştirilebilir\n\nEkranda \"LFS bekleniyor\" kalırsa LFS sohbetine `/insim 29999` yazın.",
+        "en": "Flasher and siren control for police, ambulance and fire vehicles in LFS. Connects to your local LFS session over InSim automatically.\n\n- **Page Down** toggles flashers, **Page Up** cycles the siren, **End** stops both\n- Eight flasher patterns, 60–160% speed and a preview\n- Lightbar channel per vehicle, configuration and profile\n- Fully remappable keys\n\nIf it keeps saying \"waiting for LFS\", type `/insim 29999` in LFS chat.",
+        "pt": "Controle de giroflex e sirene para viaturas de polícia, ambulâncias e bombeiros no LFS. Conecta-se sozinho à sua sessão local do LFS via InSim.\n\n- **Page Down** liga/desliga o giroflex, **Page Up** troca a sirene, **End** desliga os dois\n- Oito padrões de luz, velocidade de 60–160% e pré-visualização\n- Canal do giroflex por veículo, configuração e perfil\n- Teclas totalmente configuráveis\n\nSe ficar \"aguardando o LFS\", digite `/insim 29999` no chat do LFS.",
+        "es": "Control de luces y sirena para policía, ambulancias y bomberos en LFS. Se conecta solo a tu sesión local de LFS mediante InSim.\n\n- **Page Down** enciende/apaga las luces, **Page Up** cambia la sirena, **End** apaga ambas\n- Ocho patrones de luces, velocidad del 60–160% y vista previa\n- Canal de luces por vehículo, configuración y perfil\n- Teclas totalmente configurables\n\nSi se queda \"esperando a LFS\", escribe `/insim 29999` en el chat de LFS."
+      },
+      "requirements": {
+        "tr": "Windows 10/11 · LFS 0.7E veya üzeri",
+        "en": "Windows 10/11 · LFS 0.7E or newer",
+        "pt": "Windows 10/11 · LFS 0.7E ou mais recente",
+        "es": "Windows 10/11 · LFS 0.7E o superior"
+      },
+      "links": [
+        {
+          "label": "Discord",
+          "url": "https://discord.gg/e5VMUzP5wK"
+        }
+      ]
+    },
+    {
+      "id": "lfs-translator",
+      "name": "LFS Translator",
+      "game": "Live for Speed",
+      "repo": "tutunculermods/tutunculer-translation-updates",
+      "asset": "LFSTranslator-Setup.exe",
+      "install": "installer",
+      "uninstallKey": "{B3A2C6E4-7D1F-4E55-9C0A-2F6C1D8E4A11}_is1",
+      "exe": "LFSTranslator.exe",
+      "shortcut": "LFS Translator",
+      "icon": "icons/lfs-translator.svg",
+      "accent": [
+        "#3ee59a",
+        "#46dfff"
+      ],
+      "tags": [
+        "chat",
+        "translation"
+      ],
+      "tagline": {
+        "tr": "Live for Speed sohbet çevirmeni",
+        "en": "Chat translator for Live for Speed",
+        "pt": "Tradutor de chat para o Live for Speed",
+        "es": "Traductor de chat para Live for Speed"
+      },
+      "description": {
+        "tr": "LFS sohbetindeki mesajları kendi dilinize çevirir; yabancı oyuncularla rahatça konuşun. Kurulum programı LFS klasörünüzü sorar ve çevirmeni oraya kurar.",
+        "en": "Translates LFS chat messages into your language so you can talk with players from anywhere. The installer asks for your LFS folder and installs the translator there.",
+        "pt": "Traduz as mensagens do chat do LFS para o seu idioma, para você conversar com jogadores de qualquer lugar. O instalador pede a pasta do LFS e instala o tradutor nela.",
+        "es": "Traduce los mensajes del chat de LFS a tu idioma para que hables con jugadores de cualquier lugar. El instalador pide tu carpeta de LFS e instala el traductor allí."
+      },
+      "requirements": {
+        "tr": "Windows 10/11 · Live for Speed",
+        "en": "Windows 10/11 · Live for Speed",
+        "pt": "Windows 10/11 · Live for Speed",
+        "es": "Windows 10/11 · Live for Speed"
+      }
+    },
+    {
+      "id": "tutunculer-carplay",
+      "name": "Tütüncüler CarPlay",
+      "game": "Live for Speed",
+      "repo": "tutunculermods/tutunculer-carplay-updates",
+      "asset": "Tutunculer-CarPlay-v*.exe",
+      "install": "installer",
+      "exe": "Tutunculer CarPlay.exe",
+      "shortcut": "Tütüncüler CarPlay",
+      "icon": "icons/tutunculer-carplay.svg",
+      "accent": [
+        "#ff8a5c",
+        "#ff4fa3"
+      ],
+      "tags": [
+        "carplay",
+        "music",
+        "map"
+      ],
+      "tagline": {
+        "tr": "Araç ekranında harita, müzik, video ve radyo",
+        "en": "Maps, music, video and radio on your car's screen",
+        "pt": "Mapa, música, vídeo e rádio na tela do carro",
+        "es": "Mapa, música, vídeo y radio en la pantalla del coche"
+      },
+      "description": {
+        "tr": "LFS aracınızın desteklenen multimedya ekranında harita, müzik, video ve radyo deneyimi.\n\n- Desteklenen araç ekranlarına canlı görüntü aktarımı ve park asistanı\n- **F8** ile oyun içinden fare kontrolü\n- Dokuz LFS pist haritası, canlı araç konumu\n- YouTube, Spotify, YouTube Music, Apple Music ve radyo; “Şu an çalıyor” ekranı\n- **TG Lights** çakar ve siren kontrolü, egzoz dumanı, ortak müzik\n- Ek tablet, 18 duvar kâğıdı, Türkçe/İngilizce arayüz\n\nKurulum programı LFS klasörünüzü sorar; oyun bağlantısını ve kaldırma programını oraya ekler, orijinal dosyaları değiştirmez.",
+        "en": "Maps, music, video and radio on the supported multimedia screen of your LFS car.\n\n- Live picture on supported car screens and a parking assistant\n- In-game mouse control with **F8**\n- Nine LFS track maps with live car position\n- YouTube, Spotify, YouTube Music, Apple Music and radio; a “Now playing” screen\n- **TG Lights** flasher and siren control, exhaust smoke, shared music\n- Extra tablet, 18 wallpapers, Turkish/English interface\n\nThe installer asks for your LFS folder and adds the game bridge and an uninstaller there; original files are not changed.",
+        "pt": "Mapa, música, vídeo e rádio na tela multimídia compatível do seu carro no LFS.\n\n- Imagem ao vivo nas telas compatíveis e assistente de estacionamento\n- Controle do mouse dentro do jogo com **F8**\n- Nove mapas de pistas do LFS com posição do carro ao vivo\n- YouTube, Spotify, YouTube Music, Apple Music e rádio; tela “Tocando agora”\n- Controle de giroflex e sirene **TG Lights**, fumaça do escapamento, música compartilhada\n- Tablet extra, 18 papéis de parede\n\nO instalador pede a pasta do LFS e adiciona ali a conexão com o jogo e um desinstalador; os arquivos originais não são alterados.",
+        "es": "Mapa, música, vídeo y radio en la pantalla multimedia compatible de tu coche en LFS.\n\n- Imagen en directo en las pantallas compatibles y asistente de aparcamiento\n- Control del ratón dentro del juego con **F8**\n- Nueve mapas de circuitos de LFS con la posición del coche en directo\n- YouTube, Spotify, YouTube Music, Apple Music y radio; pantalla “Reproduciendo”\n- Control de luces y sirena **TG Lights**, humo de escape, música compartida\n- Tablet extra, 18 fondos de pantalla\n\nEl instalador pide tu carpeta de LFS y añade allí la conexión con el juego y un desinstalador; los archivos originales no se modifican."
+      },
+      "installedExe": "%LOCALAPPDATA%\\TutunculerCarPlay\\App\\Tutunculer CarPlay.exe",
+      "uninstallArgs": "--uninstall",
+      "requirements": {
+        "tr": "Windows 10/11 · Live for Speed · Desteklenen araçlar: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · Kurulumda LFS ve CarPlay kapalı olmalı",
+        "en": "Windows 10/11 · Live for Speed · Supported cars: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · LFS and CarPlay must be closed while installing",
+        "pt": "Windows 10/11 · Live for Speed · Carros compatíveis: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · LFS e CarPlay devem estar fechados na instalação",
+        "es": "Windows 10/11 · Live for Speed · Coches compatibles: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · LFS y CarPlay deben estar cerrados al instalar"
+      },
+      "uninstallNote": {
+        "tr": "CarPlay'in kendi kaldırma programı açılır; LFS klasörüne eklediği dosyaları da o kaldırır.",
+        "en": "CarPlay's own uninstaller opens; it also removes the files it added to your LFS folder.",
+        "pt": "O desinstalador do próprio CarPlay será aberto; ele também remove os arquivos adicionados à pasta do LFS.",
+        "es": "Se abre el desinstalador del propio CarPlay; también quita los archivos que añadió a la carpeta de LFS."
+      }
+    }
+  ]
+}

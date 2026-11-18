@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c2236"/><stop offset="1" stop-color="#10243a"/></linearGradient>
+    <radialGradient id="g" cx=".2" cy=".1" r=".9"><stop offset="0" stop-color="#3ee59a" stop-opacity=".45"/><stop offset="1" stop-color="#3ee59a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ee59a"/><stop offset="1" stop-color="#46dfff"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#g)" stroke="rgba(255,255,255,.12)" stroke-width="3"/>
+  <path d="M50 64h92a16 16 0 0 1 16 16v50a16 16 0 0 1-16 16H92l-26 22v-22H50a16 16 0 0 1-16-16V80a16 16 0 0 1 16-16z" fill="#fff"/>
+  <text x="96" y="122" text-anchor="middle" font-family="Segoe UI, Arial" font-weight="800" font-size="44" fill="#0c2236">A</text>
+  <path d="M206 108h-58a14 14 0 0 0-14 14v46a14 14 0 0 0 14 14h44l24 20v-20h-10" fill="url(#a)" opacity="0"/>
+  <path d="M120 112h88a14 14 0 0 1 14 14v46a14 14 0 0 1-14 14h-6v22l-26-22h-56a14 14 0 0 1-14-14v-46a14 14 0 0 1 14-14z" fill="url(#a)"/>
+  <text x="164" y="166" text-anchor="middle" font-family="Segoe UI, Arial" font-weight="800" font-size="40" fill="#0c2236">文</text>
+</svg>

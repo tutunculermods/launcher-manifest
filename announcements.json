@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "announcements": [
+    {
+      "id": "2026-11-18-launcher",
+      "date": "2026-11-18",
+      "level": "news",
+      "pinned": true,
+      "source": "tr",
+      "title": {
+        "tr": "Tütüncüler Launcher yayında!",
+        "en": "Tütüncüler Launcher is here!",
+        "pt": "O Tütüncüler Launcher chegou!",
+        "es": "¡Llega Tütüncüler Launcher!"
+      },
+      "body": {
+        "tr": "Bütün Tütüncüler modları artık tek yerde. Buradan modları **kurabilir**, tek tıkla **güncelleyebilir**, sürüm notlarını okuyabilir ve yeni duyuruları takip edebilirsiniz.\n\n- Kurulan her mod için masaüstü kısayolu\n- Güncellemeler kendiliğinden bulunur\n- 4 dil: Türkçe, English, Português, Español",
+        "en": "All Tütüncüler mods are now in one place. **Install** mods, **update** them with one click, read release notes and follow new announcements.\n\n- A desktop shortcut for every installed mod\n- Updates are found automatically\n- 4 languages: Türkçe, English, Português, Español",
+        "pt": "Todos os mods Tütüncüler agora estão em um só lugar. **Instale** mods, **atualize** com um clique, leia as notas de versão e acompanhe os novos avisos.\n\n- Atalho na área de trabalho para cada mod instalado\n- Atualizações encontradas automaticamente\n- 4 idiomas: Türkçe, English, Português, Español",
+        "es": "Todos los mods de Tütüncüler ahora en un solo lugar. **Instala** mods, **actualízalos** con un clic, lee las notas de versión y sigue los nuevos anuncios.\n\n- Acceso directo en el escritorio para cada mod instalado\n- Las actualizaciones se detectan solas\n- 4 idiomas: Türkçe, English, Português, Español"
+      }
+    },
+    {
+      "id": "2026-11-18-weather-in-launcher",
+      "date": "2026-11-18",
+      "level": "update",
+      "mod": "tutunculer-weather",
+      "source": "tr",
+      "title": {
+        "tr": "Tütüncüler Weather launcher'da",
+        "en": "Tütüncüler Weather is in the launcher",
+        "pt": "Tütüncüler Weather está no launcher",
+        "es": "Tütüncüler Weather ya está en el launcher"
+      },
+      "body": {
+        "tr": "Tütüncüler Weather'ı artık launcher'dan kurup güncelleyebilirsiniz. Zaten kuruluysa launcher onu kendiliğinden bulur. Yenilikler için **Sürüm notları** sekmesine bakın.",
+        "en": "You can now install and update Tütüncüler Weather from the launcher. If it is already installed, the launcher finds it automatically. See the **Release notes** tab for what's new.",
+        "pt": "Agora você pode instalar e atualizar o Tütüncüler Weather pelo launcher. Se já estiver instalado, o launcher o encontra sozinho. Veja a aba **Notas de versão** para as novidades.",
+        "es": "Ahora puedes instalar y actualizar Tütüncüler Weather desde el launcher. Si ya está instalado, el launcher lo encuentra solo. Consulta la pestaña **Notas de versión** para ver las novedades."
+      },
+      "action": {
+        "type": "mod",
+        "id": "tutunculer-weather"
+      }
+    }
+  ]
+}
