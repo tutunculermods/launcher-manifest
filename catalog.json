@@ -177,6 +177,7 @@
       },
       "installedExe": "%LOCALAPPDATA%\\TutunculerCarPlay\\App\\Tutunculer CarPlay.exe",
       "uninstallArgs": "--uninstall",
+      "updateArgs": "--upgrade {pid}",
       "requirements": {
         "tr": "Windows 10/11 · Live for Speed · Desteklenen araçlar: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · Kurulumda LFS ve CarPlay kapalı olmalı",
         "en": "Windows 10/11 · Live for Speed · Supported cars: BAVARIA N3 M81~005, BAVARIA N3 M80~002, BAVARIA M20~037, BVR M99 TOURING~003 · LFS and CarPlay must be closed while installing",
