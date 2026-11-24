@@ -3,7 +3,8 @@
   "updated": "2026-11-18",
   "publisher": {
     "name": "Tütüncüler Mods",
-    "github": "https://github.com/tutunculermods"
+    "github": "https://github.com/tutunculermods",
+    "discord": "https://discord.gg/e5VMUzP5wK"
   },
   "launcher": {
     "repo": "tutunculermods/tutunculer-launcher",
@@ -18,6 +19,12 @@
       "repo": "tutunculermods/tutunculer-weather",
       "asset": "TutunculerWeather-v*.zip",
       "exe": "TutunculerWeather.exe",
+      "purgeArgs": "--purge",
+      "purgeSince": "1.2.6",
+      "dataDirs": [
+        "%APPDATA%\\TutunculerWeather",
+        "%LOCALAPPDATA%\\TutunculerWeather"
+      ],
       "shortcut": "Tütüncüler Weather",
       "icon": "icons/tutunculer-weather.svg",
       "accent": [
@@ -69,6 +76,8 @@
       "install": "installer",
       "setup": "TG-LIGHTS-Setup.exe",
       "uninstallKey": "TutunculerGaraj.TGLights",
+      "uninstallSilentArgs": "/silent",
+      "uninstallSilentSince": "1.2.1",
       "exe": "TG-LIGHTS.exe",
       "shortcut": "TG LIGHTS",
       "icon": "icons/tg-lights.svg",
@@ -114,6 +123,9 @@
       "asset": "LFSTranslator-Setup.exe",
       "install": "installer",
       "uninstallKey": "{B3A2C6E4-7D1F-4E55-9C0A-2F6C1D8E4A11}_is1",
+      "dataDirs": [
+        "%APPDATA%\\LFSTranslator"
+      ],
       "exe": "LFSTranslator.exe",
       "shortcut": "LFS Translator",
       "icon": "icons/lfs-translator.svg",
