@@ -2,10 +2,38 @@
   "schema": 1,
   "announcements": [
     {
+      "id": "24.11.2026 duyuru",
+      "date": "2026-11-24",
+      "level": "update",
+      "pinned": true,
+      "mod": "tutunculer-weather",
+      "source": "tr",
+      "auto": [
+        "en",
+        "pt",
+        "es"
+      ],
+      "title": {
+        "tr": "Fotoğraf Modu Eklendi!",
+        "en": "Photo Mode Added!",
+        "pt": "Modo Foto Adicionado!",
+        "es": "¡Se ha añadido el modo Foto!"
+      },
+      "body": {
+        "tr": "Tütüncüler Weather uygulamasında artık fotoğraf modu var. Oyun içerisinde shift + U kullanarak fotoğraf moduna geçebilir ve dilediğiniz gibi çekim yapabilirsiniz.",
+        "en": "The Tütüncüler Weather app now features a photo mode. In the game, you can switch to photo mode by pressing Shift + U and take pictures as you wish.",
+        "pt": "O aplicativo Tütüncüler Weather agora possui o modo de fotografia. Você pode alternar para o modo de fotografia usando Shift + U no jogo e tirar fotos como quiser.",
+        "es": "La aplicación Tütüncüler Weather ahora cuenta con un modo de fotografía. En el juego, puedes pasar al modo fotografía pulsando Mayús + U y hacer las fotos que quieras."
+      },
+      "action": {
+        "type": "mod",
+        "id": "tutunculer-weather"
+      }
+    },
+    {
       "id": "2026-11-18-launcher",
       "date": "2026-11-18",
       "level": "news",
-      "pinned": true,
       "source": "tr",
       "title": {
         "tr": "Tütüncüler Launcher yayında!",
