@@ -2,10 +2,38 @@
   "schema": 1,
   "announcements": [
     {
+      "id": "tgtranslator",
+      "date": "2026-11-25",
+      "level": "update",
+      "pinned": true,
+      "mod": "lfs-translator",
+      "source": "tr",
+      "auto": [
+        "en",
+        "pt",
+        "es"
+      ],
+      "title": {
+        "tr": "SESLİ SOHBET ÇEVİRİSİ GELDİ!",
+        "en": "VOICE CHAT TRANSLATION IS HERE!",
+        "pt": "CHEGOU A TRADUÇÃO DE CONVERSAS POR VOZ!",
+        "es": "¡YA ESTÁ DISPONIBLE LA TRADUCCIÓN DE CHAT DE VOZ!"
+      },
+      "body": {
+        "tr": "\"Sesli sohbeti dinle ve çevir\" kutusunu işaretleyin.\nYabancı oyuncular sesli sohbetinde konuştuğunda söyledikleri\nyazıya dökülür ve kendi dilinize çevrilip oyun ekranınızda görünür.\nKendi dilinizde konuşun, karşı tarafa onların\ndilinde, sesli olarak gider.",
+        "en": "Check the \"Listen to and translate voice chat\" box.\nWhat foreign players say when they speak in the voice chat\nis transcribed, translated into your language, and displayed on your game screen.\nSpeak in your own language, and let the other party\nIt is pronounced with a vowel sound in the language.",
+        "pt": "Marque a caixa \"Ouvir e traduzir o chat de voz\".\nO que os jogadores estrangeiros dizem quando falam no chat de voz\né transcrito, traduzido para o seu idioma e exibido na tela do jogo.\nFale no seu próprio idioma, e a outra parte\nNa língua, soa como uma vogal.",
+        "es": "Marca la casilla «Escuchar y traducir la conversación de voz».\nLo que dicen los jugadores extranjeros cuando hablan en el chat de voz\nse transcribe, se traduce a su idioma y aparece en la pantalla del juego.\nHable en su propio idioma, y hágale saber a la otra parte\nEn su idioma, se pronuncia con vocal."
+      },
+      "action": {
+        "type": "mod",
+        "id": "lfs-translator"
+      }
+    },
+    {
       "id": "24.11.2026 duyuru",
       "date": "2026-11-24",
       "level": "update",
-      "pinned": true,
       "mod": "tutunculer-weather",
       "source": "tr",
       "auto": [
@@ -46,29 +74,6 @@
         "en": "All Tütüncüler mods are now in one place. **Install** mods, **update** them with one click, read release notes and follow new announcements.\n\n- A desktop shortcut for every installed mod\n- Updates are found automatically\n- 4 languages: Türkçe, English, Português, Español",
         "pt": "Todos os mods Tütüncüler agora estão em um só lugar. **Instale** mods, **atualize** com um clique, leia as notas de versão e acompanhe os novos avisos.\n\n- Atalho na área de trabalho para cada mod instalado\n- Atualizações encontradas automaticamente\n- 4 idiomas: Türkçe, English, Português, Español",
         "es": "Todos los mods de Tütüncüler ahora en un solo lugar. **Instala** mods, **actualízalos** con un clic, lee las notas de versión y sigue los nuevos anuncios.\n\n- Acceso directo en el escritorio para cada mod instalado\n- Las actualizaciones se detectan solas\n- 4 idiomas: Türkçe, English, Português, Español"
-      }
-    },
-    {
-      "id": "2026-11-18-weather-in-launcher",
-      "date": "2026-11-18",
-      "level": "update",
-      "mod": "tutunculer-weather",
-      "source": "tr",
-      "title": {
-        "tr": "Tütüncüler Weather launcher'da",
-        "en": "Tütüncüler Weather is in the launcher",
-        "pt": "Tütüncüler Weather está no launcher",
-        "es": "Tütüncüler Weather ya está en el launcher"
-      },
-      "body": {
-        "tr": "Tütüncüler Weather'ı artık launcher'dan kurup güncelleyebilirsiniz. Zaten kuruluysa launcher onu kendiliğinden bulur. Yenilikler için **Sürüm notları** sekmesine bakın.",
-        "en": "You can now install and update Tütüncüler Weather from the launcher. If it is already installed, the launcher finds it automatically. See the **Release notes** tab for what's new.",
-        "pt": "Agora você pode instalar e atualizar o Tütüncüler Weather pelo launcher. Se já estiver instalado, o launcher o encontra sozinho. Veja a aba **Notas de versão** para as novidades.",
-        "es": "Ahora puedes instalar y actualizar Tütüncüler Weather desde el launcher. Si ya está instalado, el launcher lo encuentra solo. Consulta la pestaña **Notas de versión** para ver las novedades."
-      },
-      "action": {
-        "type": "mod",
-        "id": "tutunculer-weather"
       }
     }
   ]
