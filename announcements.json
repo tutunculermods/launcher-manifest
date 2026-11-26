@@ -2,6 +2,35 @@
   "schema": 1,
   "announcements": [
     {
+      "id": "lfsautoshift",
+      "date": "2026-11-26",
+      "level": "news",
+      "pinned": true,
+      "mod": "lfs-autoshift",
+      "source": "tr",
+      "auto": [
+        "en",
+        "pt",
+        "es"
+      ],
+      "title": {
+        "tr": "Yeni mod: LFS AutoShift!",
+        "en": "New mode: LFS AutoShift!",
+        "pt": "Novo modo: LFS AutoShift!",
+        "es": "Nuevo modo: ¡LFS AutoShift!"
+      },
+      "body": {
+        "tr": "LFS için gaza göre vites değiştiren otomatik şanzıman artık launcher'da. Hafif gazda erken, gaza bastıkça geç vites atar; gazı kökleyince kickdown yapar.\n\n- **D** sakin, **S** spor, **M** manuel, **N** boş, **R** geri\n- Kulakçık ve tuşlar D/S'de de çalışır\n- Her aracı kendisi öğrenir, modlu araçlarla da çalışır.\n",
+        "en": "The automatic transmission that changes gears based on throttle input for LFS is now available in the launcher. It shifts gears early at low throttle and later as you press the accelerator; it performs a kickdown when you floor the accelerator.\n\n- **D** drive, **S** sport, **M** manual, **N** neutral, **R** reverse\n- The earpiece and buttons also work in D/S\n- It learns each tool on its own and also works with modded tools.\n",
+        "pt": "O câmbio automático que muda de marcha de acordo com o acelerador para o LFS agora está disponível no launcher. Com pouca aceleração, ele troca de marcha mais cedo; à medida que você acelera, ele troca de marcha mais tarde; quando você pisa fundo no acelerador, ele faz o kickdown.\n\n- **D** Condução tranquila, **S** Esportivo, **M** Manual, **N** Neutro, **R** Ré\n- O fone de ouvido e os botões também funcionam no D/S\n- Aprende cada veículo por conta própria e também funciona com veículos modificados.\n",
+        "es": "La caja de cambios automática que cambia de marcha en función del acelerador para LFS ya está disponible en el lanzador. Cambia de marcha pronto con poco acelerador y más tarde a medida que se pisa el acelerador; hace un kickdown cuando se pisa a fondo el acelerador.\n\n- **D** tranquilo, **S** deportivo, **M** manual, **N** neutro, **R** marcha atrás\n- El auricular y los botones también funcionan en D/S\n- Aprende cada instrumento por sí mismo y también funciona con instrumentos modificados.\n"
+      },
+      "action": {
+        "type": "mod",
+        "id": "lfs-autoshift"
+      }
+    },
+    {
       "id": "tgtranslator",
       "date": "2026-11-25",
       "level": "update",
@@ -56,24 +85,6 @@
       "action": {
         "type": "mod",
         "id": "tutunculer-weather"
-      }
-    },
-    {
-      "id": "2026-11-18-launcher",
-      "date": "2026-11-18",
-      "level": "news",
-      "source": "tr",
-      "title": {
-        "tr": "Tütüncüler Launcher yayında!",
-        "en": "Tütüncüler Launcher is here!",
-        "pt": "O Tütüncüler Launcher chegou!",
-        "es": "¡Llega Tütüncüler Launcher!"
-      },
-      "body": {
-        "tr": "Bütün Tütüncüler modları artık tek yerde. Buradan modları **kurabilir**, tek tıkla **güncelleyebilir**, sürüm notlarını okuyabilir ve yeni duyuruları takip edebilirsiniz.\n\n- Kurulan her mod için masaüstü kısayolu\n- Güncellemeler kendiliğinden bulunur\n- 4 dil: Türkçe, English, Português, Español",
-        "en": "All Tütüncüler mods are now in one place. **Install** mods, **update** them with one click, read release notes and follow new announcements.\n\n- A desktop shortcut for every installed mod\n- Updates are found automatically\n- 4 languages: Türkçe, English, Português, Español",
-        "pt": "Todos os mods Tütüncüler agora estão em um só lugar. **Instale** mods, **atualize** com um clique, leia as notas de versão e acompanhe os novos avisos.\n\n- Atalho na área de trabalho para cada mod instalado\n- Atualizações encontradas automaticamente\n- 4 idiomas: Türkçe, English, Português, Español",
-        "es": "Todos los mods de Tütüncüler ahora en un solo lugar. **Instala** mods, **actualízalos** con un clic, lee las notas de versión y sigue los nuevos anuncios.\n\n- Acceso directo en el escritorio para cada mod instalado\n- Las actualizaciones se detectan solas\n- 4 idiomas: Türkçe, English, Português, Español"
       }
     }
   ]
