@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-26",
   "publisher": {
     "name": "Tütüncüler Mods",
     "github": "https://github.com/tutunculermods",
@@ -202,6 +202,49 @@
         "pt": "O desinstalador do próprio CarPlay será aberto; ele também remove os arquivos adicionados à pasta do LFS.",
         "es": "Se abre el desinstalador del propio CarPlay; también quita los archivos que añadió a la carpeta de LFS."
       }
+    },
+    {
+      "id": "lfs-autoshift",
+      "name": "LFS AutoShift",
+      "game": "Live for Speed",
+      "repo": "tutunculermods/lfsautoshift",
+      "asset": "L*AutoShift*",
+      "exe": "LfsAutoShift.exe",
+      "shortcut": "LFS AutoShift",
+      "icon": "icons/lfs-autoshift.svg",
+      "accent": [
+        "#c77dff",
+        "#3ee5a0"
+      ],
+      "tags": [
+        "gearbox",
+        "automatic",
+        "driving"
+      ],
+      "tagline": {
+        "tr": "Live for Speed için gaza göre vites değiştiren otomatik şanzıman",
+        "en": "Throttle-aware automatic gearbox for Live for Speed",
+        "pt": "Câmbio automático que troca de marcha conforme o acelerador no Live for Speed",
+        "es": "Caja automática que cambia según el acelerador en Live for Speed"
+      },
+      "description": {
+        "tr": "LFS'e gerçek bir otomatik şanzıman ekler. LFS'in kendi \"otomatik vites\"i hep kırmızı çizgiye yakın değiştirir; AutoShift ise gaza ne kadar bastığına göre değiştirir.\n\n- **D** sakin: hafif gazda erken, gaza bastıkça geç vites; gazı kökleyince kickdown\n- **S** spor: yüksek devirde değiştirir, gazı bırakınca vitesi tutar, frende sert küçültür\n- **M** manuel, **N** boş, **R** geri\n- D/S'deyken kulakçık ya da tuşla vites değiştirirsen birkaç saniye manuele geçer, sonra otomatiğe döner\n- Her aracı kendisi öğrenir (vites noktası, oranlar, en üst vites); resmi araçlar ve modlarla çalışır\n- Mod değiştirme: sohbette `/o d`, `/o s`, `/o m`, `/o n`, `/o r`\n\nİlk kullanımda LFS sohbetine `/insim 29999` yaz ve AutoShift penceresini açık tut.",
+        "en": "Adds a real automatic gearbox to LFS. LFS's own \"Auto gears\" always shifts near the redline; AutoShift shifts according to how hard you press the throttle.\n\n- **D** relaxed: shifts early on light throttle, later the more you press; kickdown when you floor it\n- **S** sport: shifts high, holds the gear when you lift, downshifts hard under braking\n- **M** manual, **N** neutral, **R** reverse\n- In D/S your paddles or keys still work: the box goes manual for a few seconds, then back to auto\n- Learns each car by itself (shift point, ratios, top gear); works with official cars and mods\n- Change mode in chat: `/o d`, `/o s`, `/o m`, `/o n`, `/o r`\n\nOn first use type `/insim 29999` in LFS chat and keep the AutoShift window open.",
+        "pt": "Adiciona um câmbio automático de verdade ao LFS. O \"Auto gears\" do próprio LFS sempre troca perto do corte; o AutoShift troca conforme o quanto você pisa no acelerador.\n\n- **D** tranquilo: troca cedo com pouco acelerador e mais tarde quanto mais você pisa; kickdown ao pisar fundo\n- **S** esportivo: troca em giro alto, segura a marcha ao aliviar e reduz forte na frenagem\n- **M** manual, **N** neutro, **R** ré\n- Em D/S as borboletas ou teclas continuam funcionando: o câmbio fica manual por alguns segundos e depois volta ao automático\n- Aprende cada carro sozinho (ponto de troca, relações, última marcha); funciona com carros oficiais e mods\n- Troque o modo no chat: `/o d`, `/o s`, `/o m`, `/o n`, `/o r`\n\nNo primeiro uso digite `/insim 29999` no chat do LFS e deixe a janela do AutoShift aberta.",
+        "es": "Añade a LFS una caja automática de verdad. El \"Auto gears\" de LFS siempre cambia cerca del corte; AutoShift cambia según cuánto pises el acelerador.\n\n- **D** tranquilo: cambia pronto con poco acelerador y más tarde cuanto más pisas; kickdown a fondo\n- **S** deportivo: cambia alto, mantiene la marcha al soltar y reduce fuerte al frenar\n- **M** manual, **N** punto muerto, **R** marcha atrás\n- En D/S las levas o teclas siguen funcionando: la caja pasa a manual unos segundos y luego vuelve a automático\n- Aprende cada coche por sí sola (punto de cambio, relaciones, última marcha); funciona con coches oficiales y mods\n- Cambia de modo en el chat: `/o d`, `/o s`, `/o m`, `/o n`, `/o r`\n\nLa primera vez escribe `/insim 29999` en el chat de LFS y deja abierta la ventana de AutoShift."
+      },
+      "requirements": {
+        "tr": "Windows 10/11 64 bit · LFS 0.7F veya üzeri · LFS kontrollerinde: Vites = Sıralı, Otomatik vites = KAPALI, Otomatik debriyaj = AÇIK, Vites yükselt/düşür için birer klavye tuşu",
+        "en": "Windows 10/11 64-bit · LFS 0.7F or newer · In LFS controls: Gearshift = Sequential, Auto gears = OFF, Auto clutch = ON, a keyboard key for Shift up and Shift down",
+        "pt": "Windows 10/11 64 bits · LFS 0.7F ou mais recente · Nos controles do LFS: Câmbio = Sequencial, Auto gears = DESLIGADO, Embreagem automática = LIGADA, uma tecla do teclado para subir e reduzir marcha",
+        "es": "Windows 10/11 64 bits · LFS 0.7F o superior · En los controles de LFS: Cambio = Secuencial, Auto gears = DESACTIVADO, Embrague automático = ACTIVADO, una tecla del teclado para subir y bajar marcha"
+      },
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tutunculermods/lfsautoshift"
+        }
+      ]
     }
   ]
 }
