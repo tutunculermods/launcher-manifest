@@ -2,6 +2,35 @@
   "schema": 1,
   "announcements": [
     {
+      "id": "warn",
+      "date": "2026-11-26",
+      "level": "warning",
+      "pinned": true,
+      "mod": "tutunculer-carplay",
+      "source": "tr",
+      "auto": [
+        "en",
+        "pt",
+        "es"
+      ],
+      "title": {
+        "tr": "CarPlay Uygulamasını Güncellerken Sorun Yaşayabilirsiniz!",
+        "en": "You May Encounter Issues While Updating the CarPlay App!",
+        "pt": "Você pode ter problemas ao atualizar o aplicativo CarPlay!",
+        "es": "¡Es posible que tenga problemas al actualizar la aplicación CarPlay!"
+      },
+      "body": {
+        "tr": "Yeni bir windows sürümüne geçerken şifreleme yaptığım kodları kaybettim. Bu yüzden sadece carplay uygulamasını eğer güncellerken hata alırsanız silip tekrar yükleyin. Rahatsızlık için herkesten özür dilerim.",
+        "en": "I lost the codes I encrypted when switching to a new version of Windows. So, if you encounter an error while updating the CarPlay app, simply delete it and reinstall it. I apologize to everyone for the inconvenience.",
+        "pt": "Perdi os códigos que criptografei ao fazer a atualização para uma nova versão do Windows. Portanto, se você receber um erro ao atualizar o aplicativo CarPlay, basta desinstalá-lo e instalá-lo novamente. Peço desculpas a todos pelo transtorno.",
+        "es": "Al cambiar a una nueva versión de Windows, he perdido los códigos que había cifrado. Por lo tanto, si recibe un error al actualizar la aplicación CarPlay, simplemente elimínela y vuelva a instalarla. Pido disculpas a todos por las molestias."
+      },
+      "action": {
+        "type": "mod",
+        "id": "tutunculer-carplay"
+      }
+    },
+    {
       "id": "lfsautoshift",
       "date": "2026-11-26",
       "level": "news",
